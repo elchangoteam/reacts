@@ -16,8 +16,8 @@ export default function App() {
       <Route path="/category" element={<ItemListContainer />} />
       <Route path="/item" element={<ItemDetailContainer />} />
     </Routes>
-
   </BrowserRouter>
+
 
   );
 }
