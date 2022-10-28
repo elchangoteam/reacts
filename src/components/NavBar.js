@@ -1,16 +1,12 @@
-import CartWidget from "./CartWidget";
+import {NavLink} from "react-router-dom";
 
-function NavBar() {
+export default function NavBar() {
+  return (
 
-
-    return (
-        <div>   
-            Menu 1
-            Menu 2
-            Menu 3
-            <CartWidget/>          
-        </div>
-    );
+    <div>
+    <NavLink to="/">Home</NavLink>
+    <NavLink to="/category">Category</NavLink>
+    <NavLink to="/item">Item</NavLink>
+    </div>
+  )
 }
-
-export default NavBar;

@@ -1,7 +1,8 @@
 import React from 'react'
 
-export const ItemDetailContainer = () => {
+export default function ItemDetailContainer() {
   return (
     <div>ItemDetailContainer</div>
   )
 }
+
